@@ -1,0 +1,11 @@
+p {
+	font-style: italic;
+
+}
+body {
+    background-color: lightgreen;
+}
+h1 {
+    color: purple;
+    margin-left: 90px;
+}

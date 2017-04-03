@@ -1,0 +1,92 @@
+img {
+	dispay: block;
+	width: 100%;
+	position: relative;
+}
+
+.gallary .image_block {
+	float: left;
+	padding: 25px;
+	border: 1px solid black;
+	width:40%;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+  opacity: 0.5;
+  background: white;
+  /*transition: opacity 0.2s ease 0.5s, background 2s ease 0.5s;*/
+  transition: all 0.2s ease;
+}
+
+.gallary .image_block img {
+   position: relative;
+   top: 0px;
+   left: 0px;
+   transition: top 2s ease, left 2s ease 2s, transform 2s ease;
+ }
+
+ .gallary .image_block:hover img.scale {
+   transform: scale(1.5);
+ }
+
+ .gallary .image_block:hover img.skewX {
+   transform: skewX(45deg);
+ }
+ 
+
+ .gallary .image_block:hover img.rotate {
+ 	transform: rotate(720deg);
+  transition: top 1s ease, left 1s ease 1s, transform 1s ease;
+
+ }
+
+.gallary .image_block:hover {
+	opacity: 1;
+	background: red;
+	transition: all 1s ease;
+}
+
+
+h1:hover {
+   color: green;
+}
+
+.gallary .image_block:hover img {
+   top: -20px;
+   left: -20px;
+   transition: top 1s ease, left ease 1s
+}
+
+/*.gallary .image_block: before,
+.gallary .image_block: after {
+	 content: :test;
+	 font-size: 20px;
+	 font-weight: bold;
+}
+
+.gallary .image_block: before:after {
+	content: "hello";
+	font-size: 42px;*/
+}
+
+.div1, .div2 {
+	background: #3AE2CE;
+	height: 50;
+
+}
+
+.div1 {
+	weight: 300px;
+}
+
+.div2 {
+	white: 30px;
+}
+
+.gallary:after, .clear_fix {
+	clear: both;
+	content: "";
+	display: block;
+	background: red;
+	height: 4px;
+}

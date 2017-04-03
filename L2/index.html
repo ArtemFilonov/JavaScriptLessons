@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+     <meta charset="UTF-8">
+     <head>
+     <title>Lesson 2 (forms and articles)</title>
+     </head>
+<body>
+     <nav>
+         <a href="#lastp">Last pasragraph</a>
+         <a href="#beforelastp">Prelast paragraph</a>
+     </nav>
+     <h1>Lesson 2 (forms and articles)</h1>
+     <p>Далеко-далеко за <b>словесными</b> <i>горами</i> в стране гласных и согласных живут <strong>рыбные тексты</strong>. <em>Вдали</em> от всех живут они в буквенных домах на берегу Семантика большого языкового океана. <u>Маленький ручеек</u> Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</p>
+
+<p>Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
+
+Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу.
+
+<p id="lastp">Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка. Грустный реторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись. Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и». Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель</p>
+<p>
+  H<sub>2</sub>O x<sup>2</sup>+3<sup>x</sup>+0
+</p>
+   <style>
+       table{
+            border-collapse: collapse;
+       }
+      td,th{
+        border:1px black solid;
+      }
+   </style>
+   <h2>Таблица</h2>
+
+<table>
+    <thead>
+    <tr>
+       <th rowspan="2">№</th>
+       <th rowspan="2">Прізвище</th>
+       <th colspan="3">Зарплата</th>
+    </tr>
+    <tr>
+       <th>August</th>
+       <th>March</th>
+       <th>April</th>
+    </tr>
+
+    <tfoot>
+    <tr>
+       <th>№</th>
+       <th>Прізвище</th>
+       <th>Зарплата</th>
+    </tr>
+    </tfoot>
+    
+    </thead>
+
+    <tbody>
+    <tr>
+       <td>1</td>
+       <td>Іванов</td>
+       <td>10000</td>
+    </tr>
+    <tr>
+       <td>2</td>
+       <td>Петров</td>
+       <td>9000</td>
+    </tr>
+    <tr>
+       <td>2</td>
+       <td>Сыдоров</td>
+       <td>8000</td>
+    </tr>
+</table>
+</tbody>
+<h2>Форма</h2>
+<h3>Форма реестрации</h3>
+<form>
+     <p>Введите логин</p>
+     <input type="text" name="login">
+
+     <p>Введите фамилию</p>
+     <input type="text" name="surname">
+
+     <p>Введите пароль</p>
+     <input type="password" name="password">
+
+     <p>Повторите пароль</p>
+     <input type="password" name="repeat password">
+     <p>Введите в поле результат 2+2*2</p>
+     <input type="text" name="capcha">
+     <input type="submit">
+</form>
+<h3>Личный кабинет</h3>
+  <form>
+     <p>Введите логин</p>
+     <input type="text" name="login">
+
+     <label>
+           <p>Введите фамилию</p>
+     <input type="text" name="surname" placeholder="Введите фамилию">
+     </label>
+
+     <br>
+     <label>Употребляете ли вы алкоголь?
+     <input type="checkbox"
+            checked="checked"
+            name="Doyoudrink">
+     </label>
+
+     <p>Виберіть самий важливий прийом їжі</p>
+     <label>
+          <input type="radio" name="food" value="1"> Сніданок
+     </label>
+     <label>
+          <input type="radio" name="food" value="2"> Обід
+     </label>
+     <label>
+          <input type="radio" name="food" value="3"> Вечеря
+     </label>
+
+    <p id="beforelastp">Автобиогрифия</p>
+    <textarea name="auto"></textarea>
+
+
+     <br>
+     <input type="reset"
+     <input type="submit">
+
+     
+
+</form>
+
+</body>
+
+
+</html>
+

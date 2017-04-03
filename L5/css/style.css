@@ -1,0 +1,84 @@
+@font-face{
+	font-family: "iconfont";
+	src: url("../fonts/IcoMoon-Free.ttf");
+}
+
+.photo:before,
+.arrow:before,
+.card:before{
+	font-family: "iconfont";
+	font-size:40px;
+	color:red;
+}
+
+
+
+.photo:before{content:"\e90f";}
+.arrow:before{content:"\e95f";}
+.card:before{content:"\e93f";}
+
+p{
+	font-size: 24px;				
+}
+
+.font1{
+	font-family: Arial;
+}
+
+.font2{
+	font-family: Georgia;
+}
+
+.font3{
+	font-family: "Times New Roman";
+}
+
+.wraper{
+	max-width: 800px;
+	min-width: 400px;
+	margin:0 auto;
+}
+
+header{
+   height:50px;
+   background: yellow;
+ }
+
+ footer{
+   height:50px;
+   background: blue;
+ }
+
+ .sidebar{
+ 	height:500px;
+ 	width: 25%;
+ 	background: aqua;
+  float: left;
+ }
+
+ #content{
+ 	background: #b34EE9;
+ 	float: left;
+ 	width:75%;
+ }
+
+ p{
+ 	width: 50%;
+ 	float: left;
+ }
+
+ @media (min-width: 600px) and (max-width: 800px){
+      #content{
+      	background: #447303;
+      	width: 100%;
+      }
+      .sidebar{
+      	width: 100%;
+      }
+ }
+
+ @media (max-width: 600px){
+   p{
+   	width: 100%;
+   }
+ }

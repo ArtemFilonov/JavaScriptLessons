@@ -1,0 +1,27 @@
+.wrapper{
+	max-width: 1200px;
+}
+
+header{
+  height: 130px;
+}
+
+header .logo{
+	left: 68px;
+	top: 42px;
+	display: block;
+	width: 250px;
+	float: left;
+	position: relative;
+	text-decoration: none;
+	color: #3d3e3c;
+	font-size: 14px;
+}
+
+header .logo span{
+	margin-top: 20px;
+	display: block;
+}
+header .logo img{
+   float: left;
+}
